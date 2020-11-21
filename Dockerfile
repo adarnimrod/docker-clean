@@ -1,3 +1,3 @@
 FROM docker:19.03 as docker
-ADD https://www.shore.co.il/cgit/rcfiles/plain/Documents/bin/docker-clean /usr/local/bin/docker-clean
+ADD https://git.shore.co.il/nimrod/rcfiles/-/raw/master/Documents/bin/_docker-clean /usr/local/bin/docker-clean
 ENTRYPOINT ["/bin/sh", "/usr/local/bin/docker-clean"]
