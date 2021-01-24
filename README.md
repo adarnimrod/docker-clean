@@ -10,7 +10,7 @@ containers.
 ## Usage
 
 ```
-docker run -v /var/run/docker.sock:/var/run/docker.sock adarnimrod/docker-clean
+docker run -v /var/run/docker.sock:/var/run/docker.sock registry.shore.co.il/docker-clean
 ```
 
 ## License
