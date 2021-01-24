@@ -10,9 +10,6 @@ stages:
   - build
   - deploy
 
-variables:
-  IMAGE: docker-clean
-
 build:
   extends: .docker-build-shore
   tags: [ns4.shore.co.il]
